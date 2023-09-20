@@ -1,0 +1,29 @@
+/* estilo.css */
+
+.shoe-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os divs quebrem para a próxima linha em telas menores */
+}
+
+.shoe {
+    width: 200px;
+    background-color: green;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.shoe img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    clear: both; /* Garante que o rodapé fique abaixo dos divs */
+}
