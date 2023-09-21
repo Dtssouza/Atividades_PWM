@@ -1,5 +1,5 @@
 #conteiner {
-    background-color:red;
+    background-color: red;
     width: 700px;
     padding: 0px;
     margin: auto;
@@ -7,10 +7,10 @@
 }
 
 #conteiner2 {
-    background-color:green;
+    background-color: green;
     width: 700px;
-    padding: 0px;
+    padding: 25px;
     margin: auto;
-    
+    text-align: center;
 
 }

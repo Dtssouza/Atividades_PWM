@@ -1,9 +1,11 @@
-p {
-    font-family: Arial, sans-serif;
-    
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+
 }
 
 a {
-    font-family: "Times New Roman", serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     text-decoration: none;
 }
