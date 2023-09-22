@@ -32,6 +32,7 @@ header{
 }
 
 header img{
+    object-fit: cover;
     height: 128px;
     width: 125px;
     border-radius: 50%;
