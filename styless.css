@@ -1,0 +1,32 @@
+/* Estilos para centralizar e mudar a fonte */
+body {
+    font-family: Arial, sans-serif; /* Altere a fonte como desejado */
+    text-align: center; /* Centraliza o texto no corpo da página */
+    background-color: #f0f0f0; /* Define uma cor de fundo */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimento padrão do corpo */
+}
+
+h2 {
+    color: #333; /* Cor do título */
+}
+
+ol {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #0077cc; /* Cor dos links */
+    font-weight: bold; /* Deixa os links em negrito */
+}
+
+/* Efeitos de hover para os links */
+a:hover {
+    color: #ff5500; /* Altere a cor de hover como desejado */
+}
