@@ -45,3 +45,18 @@ body {
 }
 
 /* Adicione mais estilos e animações aqui, se desejar */
+
+/* ... (seus estilos existentes) ... */
+
+/* Estilos para os botões de aposta */
+#betButtons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#betButtons button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
