@@ -3,11 +3,18 @@ const btAnterior = document.getElementById("btAnterior");
 const btProxima = document.getElementById("btProxima");
 
 const exibirLista = (lista) => {
+  // Ordenar a lista de pessoas por nome em ordem alfabética
+  lista.sort((a, b) => {
+    const nameA = a.name.toLowerCase();
+    const nameB = b.name.toLowerCase();
+    return nameA.localeCompare(nameB);
+  });
+
   listaPessoas.innerHTML = "";
   for (let i = 0; i < lista.length; ++i) {
     const li = document.createElement("li");
     const text = document.createTextNode(
-      `${lista[i].name} (${lista[i].birth_year}) (${lista[i].height} cm)`
+      `${lista[i].name} (${lista[i].birth_year}) (${lista[i].mass} kg)`
     );
     li.appendChild(text);
     listaPessoas.appendChild(li);

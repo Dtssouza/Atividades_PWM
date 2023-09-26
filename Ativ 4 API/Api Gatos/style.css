@@ -1,0 +1,67 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho */
+h1 {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Estilos para os botões de navegação */
+#btnAnterior, #btnProxima {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btnAnterior:hover, #btnProxima:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para a galeria de imagens */
+#galeria {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#galeria img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Estilos para os detalhes do gato */
+#detalhesGato {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#detalhesGato h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#detalhesGato a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+#detalhesGato a:hover {
+  text-decoration: underline;
+}
