@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulls and Cows</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Bulls and Cows Game</h1>
+    <div id="start">
+        
+        
+        <button onclick="startGame(4)">Start</button>
+       
+    </div>
+    <div id="main">
+        <button onclick="reset()">Start New Game</button>
+        <p>Chances: <span id="chance">1</span></p>
+        <p>Digite um número de <span id="digits">4</span> digitos:</p>
+        <input type="text" id="guess" maxlength="5">
+        <button onclick="playBullsAndCows()">Enviar palpite</button>
+        <p>Bulls: <span id="bulls">0</span></p>
+        <p>Cows: <span id="cows">0</span></p>
+        <p id="turn"></p>
+        <div id="guessListContainer">
+            <ul id="guessList">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

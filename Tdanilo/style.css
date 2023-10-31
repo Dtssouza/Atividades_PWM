@@ -1,0 +1,245 @@
+/*****COMMON CSS SECTION*****/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Roboto, sans-serif, arial;
+}
+html, body 
+    {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+/* Estilos para o modo escuro */
+/* Estilos para o modo escuro */
+/* Background e cores alterados para o modo escuro */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+.container {
+    width: 1100px;
+    margin: 0px auto;
+    display: table;
+}
+.navbar {
+    width: 33%;
+    float: left;
+}
+.navbar-1 {
+    position: fixed;
+    width: 66%;
+    float: left;
+
+}
+/*****MENU SECTION*****/
+.main-panel {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 40px; /* muda a fonte do meu (portfolio)*/
+    font-weight: 600;
+}
+
+.span-col {
+    color: #ff3835;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    color:#ff3835;
+}
+/*****Main BANNER*****/
+.banner-1 {
+    float: left;
+    width: 50%;
+}
+.banner-section {
+    width: 100%;
+    float: left;
+    margin-top: 25vh;
+}
+.banner-section h1 {
+    font-size: 48px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.banner-section h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.banner-section a {
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #ff3835;
+    color: #ff3835;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+/*ABOUT US SECTION*/
+.secao-principal {
+    width: 100%;
+    float: left;
+    padding: 110px 0px 110px 0px;
+}
+.width-100 {
+    width: 100%;
+    float: left;
+}
+.bn-2 {
+    margin-top: 20px;
+}
+.titulo-texto {
+    width: 100%;
+    float: left;
+    font-size: 35px;  /* isso muda a fonte da (minhas skills)*/
+    text-align: center;
+    margin-bottom: 50px;
+    color:#ff3835;
+}
+.about-img {
+    width: 100%;
+    padding: 0px 50px;
+    margin-top: 20px;
+}
+.sobre-mim {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.sobre-mim p {
+    font-size: 22px; /* isso aqui muda o texto que tem sobre mim a fonte */
+    margin-top: 15px;
+    line-height: 27px;
+}
+table {
+    width: 100%;
+}
+table th,
+table td {
+    font-size: 16px;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+/*****SKILL SECTION*****/
+.skill {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.skill span {
+    float: right;
+}
+
+.skill div {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    background: #dc5dbf;
+    border-radius: 10px;
+}
+
+.skill div span {
+    background: #ff3835;
+    height: 5px;
+    float: left;
+}
+/*PORTFOLIO SECTION*/
+.galeria {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.galeria img {
+    height: auto;
+    width: 95%;
+    margin-bottom: 20px;
+}
+/*contato US SECTION*/
+.contato form {
+    width: 66%;
+    margin: 0px auto;
+        
+}
+.contato input,
+textarea {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #f30000;
+}
+
+.contato textarea {
+    height: 80px;
+}
+.contato button {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 10px;
+    background:#ff3835;
+    color: #000000;
+    border: none;
+    font-size: 16px;
+}
+.contato h3 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 60px;
+    color: #ff3835;
+}
+.contato h4 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+.contato p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#icon{
+    cursor: pointer;
+}
+
+#foto-light{
+    width: 100%;
+    padding: 0px 50px;
+    margin-top: 20px;
+
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+/* Adicione essas regras ao seu arquivo CSS para estilizar o botão da lua */
